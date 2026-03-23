@@ -1,0 +1,40 @@
+/* ─── Variable fonts: 1 arquivo woff2 por família (era 10 requests, agora 2) ─── */
+/* npm install @fontsource-variable/montserrat @fontsource-variable/playfair-display */
+@import '@fontsource-variable/montserrat';
+@import '@fontsource-variable/playfair-display';
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat Variable", sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Montserrat Variable', sans-serif;
+    background-color: #0a1628;
+    color: #ffffff;
+    overflow-x: hidden;
+  }
+
+  .font-serif {
+    font-family: 'Playfair Display Variable', serif;
+  }
+}
+
+@layer utilities {
+  @keyframes fadeUp {
+    from {
+      opacity: 0;
+      transform: translateY(28px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
