@@ -9,7 +9,7 @@ const SELOS = [
         <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01z"/>
       </svg>
     ),
-    num: "+40",
+    num: "+150",
     label: "avaliações no Google",
   },
   {
@@ -18,8 +18,8 @@ const SELOS = [
         <circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/>
       </svg>
     ),
-    num: "5,0",
-    label: "nota média",
+    num: "+1150",
+    label: "Doctoralia",
   },
   {
     icon: (

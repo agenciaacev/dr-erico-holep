@@ -2,11 +2,12 @@ import WhatsAppIcon from "./WhatsAppIcon";
 import { WA_LINK } from "../constants";
 
 const beneficios = [
-  "Remove o tecido que obstrói com precisão milimétrica",
-  "Praticamente elimina o risco de recorrência",
-  "Preserva a função sexual e o controle urinário",
-  "Alta hospitalar em 24h a 48h",
-  "Retorno às atividades em poucos dias",
+  "Remoção completa do tecido obstrutivo (tratamento anatômico definitivo)",
+  "Baixíssima taxa de reoperação (<1–2% em longo prazo)",
+  "Preservação da continência urinária",
+  "Baixo risco de sangramento (ideal inclusive para pacientes anticoagulados)",
+  "Internação curta (24–48h)",
+  "Retorno rápido às atividades habituais",
 ];
 
 const SolucaoSection = () => (
@@ -146,7 +147,7 @@ const SolucaoSection = () => (
             className="font-black text-white leading-[1.08] mb-6"
             style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}
           >
-            HoLEP  em Fortaleza:{" "}
+            HoLEP, Thulep e Milep  em Fortaleza:{" "}
             <span
               style={{
                 display: "inline-block",
@@ -159,7 +160,7 @@ const SolucaoSection = () => (
             >
               o padrão-ouro
             </span>{" "}
-            mundial que poucos urologistas dominam
+            mundial no tratamento da próstata aumentada.
           </h2>
 
           {/* Texto */}
@@ -167,8 +168,8 @@ const SolucaoSection = () => (
             className="leading-relaxed mb-8"
             style={{ fontSize: "clamp(0.82rem, 1.1vw, 0.95rem)", color: "rgba(255,255,255,0.55)" }}
           >
-            O HoLEP é hoje o tratamento mais avançado e eficaz para obstrução urinária causada pelo crescimento da próstata — e o{" "}
-            <strong className="text-white">Dr. Érico Diógenes</strong> é um dos poucos especialistas em Fortaleza a dominar essa técnica.
+            O HoLEP é hoje o tratamento mais avançado e eficaz para obstrução urinária causada pelo crescimento da próstata e o{" "}
+            <strong className="text-white">Dr. Érico Diógenes</strong> é um dos pioneiros na realização dessa técnica no Nordeste, com ampla experiência em cirurgia urológica avançada.{" "}
           </p>
 
           {/* Lista de benefícios */}
