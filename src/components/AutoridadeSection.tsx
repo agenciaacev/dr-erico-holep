@@ -79,7 +79,7 @@ const NOS = [
       </svg>
     ),
     label: "Sociedade Brasileira de Urologia",
-    text: "Membro Titular \ncertificação nacional",
+    text: "Membro Titular",
   },
   {
     icon: (

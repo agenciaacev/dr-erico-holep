@@ -17,18 +17,18 @@ const FAQS = [
   },
   {
     n: "03",
-    q: "O procedimento dói?",
-    a: "Não. A cirurgia é feita com anestesia (geral ou raquidiana), e o desconforto no pós-operatório costuma ser leve e controlado.",
+    q: "O procedimento causa dor?",
+    a: "Não. O procedimento é realizado sob anestesia, sem dor durante a cirurgia. No pós-operatório, o desconforto costuma ser leve e transitório.",
   },
   {
     n: "04",
     q: "Existe risco de impotência ou incontinência?",
-    a: "Como em qualquer cirurgia, existe risco. Porém, o HoLEP foi desenvolvido para minimizar esses efeitos, preservando ao máximo os nervos responsáveis pela função urinária e sexual.",
+    a: "O risco de incontinência urinária é baixo e geralmente temporário. A função erétil, na maioria dos casos, é preservada. Cada caso deve ser avaliado individualmente",
   },
   {
     n: "05",
     q: "O HoLEP é melhor que a cirurgia tradicional?",
-    a: "Para muitos casos, sim. Ele permite tratar próstatas grandes com menos sangramento, menor tempo de internação e recuperação mais rápida.",
+    a: "O HoLEP apresenta vantagens em relação às técnicas tradicionais, incluindo menor sangramento, recuperação mais rápida e resultados mais duradouros, sendo considerado o padrão-ouro internacional para o tratamento da hiperplasia prostática benigna",
   },
   {
     n: "06",
@@ -232,7 +232,7 @@ const FAQSection = () => {
                   >
                     Ainda tem dúvidas?
                     <br />
-                    <span style={{ color: "#f5c518" }}>Fale comigo agora.</span>
+                    <span style={{ color: "#f5c518" }}>Fale com minha equipe.</span>
                   </p>
                   <p className="text-xs leading-relaxed" style={{ color: "rgba(255,255,255,0.45)" }}>
                     Minha equipe responde via WhatsApp de forma rápida, discreta e sem compromisso.
@@ -275,8 +275,8 @@ const FAQSection = () => {
                     boxShadow: "0 8px 32px rgba(245,197,24,0.2)",
                   }}
                 >
-                  <WhatsAppIcon size={14} />
-                  Quero ser candidato ao HoLEP
+                  <WhatsAppIcon size={15} />
+                  Quero agendar minha avaliação para o HoLEP
                 </a>
 
                 <p className="text-center" style={{ fontSize: 10, color: "rgba(255,255,255,0.2)" }}>
