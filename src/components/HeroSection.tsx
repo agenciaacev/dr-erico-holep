@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import WhatsAppIcon from "./WhatsAppIcon";
 import { WA_LINK } from "../constants";
 import imgLogo from "../assets/logo_1.png";
-import imgBg from "../assets/dr-erico-holep.webp";
+import imgBg from "../assets/laser.webp";
 import imgBgMobile from "../assets/dr-erico-holep.webp";
 
 /* ─── CSS injetado uma vez ─── */
@@ -86,13 +86,13 @@ const STYLES = `
 const STATS = [
   { num: "21+", label: "anos de\nexperiência" },
   { num: "5★",  label: "avaliação\nno Google"  },
-  { num: "48h", label: "alta após\ncirurgia"    },
+  { num: "24h - 48h", label: "alta após\ncirurgia"    },
 ];
 
 const PILLS = [
   { text: "Padrão-ouro mundial",  cls: "pill-float-1", top: "28%",  right: "8%",  left: "auto", bottom: "auto" },
   { text: "Sem cortes externos",  cls: "pill-float-2", top: "auto", right: "auto", left: "6%",  bottom: "28%"  },
-  { text: "Alta em 48h",          cls: "pill-float-3", top: "auto", right: "6%",  left: "auto", bottom: "14%"  },
+  { text: "Alta em 24h - 48h",    cls: "pill-float-3", top: "auto", right: "6%",  left: "auto", bottom: "14%"  },
 ];
 
 const HeroSection = () => {
@@ -185,8 +185,8 @@ const HeroSection = () => {
             className="font-black leading-[1.08] mb-6"
             style={{ fontSize: "clamp(1.9rem, 3.8vw, 2.75rem)", color: "#071120" }}
           >
-            Chega de acordar<br />
-            toda hora à noite.{" "}
+            Jato Fraco , Urgência para Urinar <br />
+            e acordar várias vezes a noite.<br />{" "}
             <span
               style={{
                 display: "inline-block",
@@ -197,7 +197,7 @@ const HeroSection = () => {
                 lineHeight: 1.2,
               }}
             >
-              Existe solução.
+              tem tratamento definitivo.
             </span>
           </h1>
 
@@ -206,10 +206,10 @@ const HeroSection = () => {
             className="leading-relaxed mb-8 max-w-[420px]"
             style={{ fontSize: "clamp(.8rem, 1.1vw, .95rem)", color: "rgba(0,0,0,.48)" }}
           >
-            O <strong style={{ color: "#071120" }}>HoLEP</strong> é o padrão-ouro mundial para
-            obstrução urinária.{" "}
+            A Enucleação da próstata a laser <strong style={{ color: "#071120" }}>(HoLEP)</strong> é o padrão-ouro mundial para
+            o tratamento do crescimento benigno da próstata.{" "}
             <strong style={{ color: "#071120" }}>
-              Minimamente invasivo, resultado definitivo, recuperação em dias.
+              Minimamente invasivo, resultado definitivo, baixa taxa de recôrrencia e recuperação rápida.
             </strong>
           </p>
 

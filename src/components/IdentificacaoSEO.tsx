@@ -1,11 +1,12 @@
 import imgFoto from "../assets/laser.webp";
 
 const SYMPTOMS = [
-  { n: "01", text: "Acorda 2, 3 ou mais vezes por noite para urinar" },
-  { n: "02", text: "Sente que a bexiga nunca esvazia completamente" },
-  { n: "03", text: "O jato urinário é fraco, lento ou interrompido" },
-  { n: "04", text: "Remédios ajudam, mas o alívio é parcial ou temporário" },
-  { n: "05", text: "Sono ruim, cansaço e qualidade de vida caindo" },
+  { n: "01", text: "Acorda 2 ou mais vezes à noite para urinar (noctúria)" },
+  { n: "02", text: "Sensação de esvaziamento incompleto da bexiga" },
+  { n: "03", text: "Jato urinário fraco, lento ou intermitente" },
+  { n: "04", text: "Necessidade frequente de urinar durante o dia" },
+  { n: "05", text: "Uso de medicações com resposta parcial ou temporária" },
+   { n: "06", text: "Impacto no sono, cansaço e qualidade de vida" },
 ];
 
 export default function IdentificacaoSEO() {
@@ -224,7 +225,7 @@ export default function IdentificacaoSEO() {
               className="font-black leading-snug mb-1.5"
               style={{ fontSize: "clamp(0.95rem, 1.6vw, 1.2rem)", color: "#071120" }}
             >
-              Isso não é normal. Não é "coisa da idade".{" "}
+              "Esses sintomas não devem ser considerados normais com a idade".{" "}
               <span style={{ color: "#d4a800" }}>E tem solução.</span>
             </p>
             <p className="text-xs leading-relaxed" style={{ color: "rgba(7,17,32,0.45)" }}>

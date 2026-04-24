@@ -74,7 +74,7 @@ const SolucaoSection = () => (
               className="font-black text-white leading-snug mb-2"
               style={{ fontSize: "clamp(1rem, 1.5vw, 1.2rem)" }}
             >
-              Precisão milimétrica com laser de Hólmio
+              Precisão milimétrica com laser de Holmium e Thulio Pulsado
             </h3>
             <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.55)" }}>
               O HoLEP utiliza um laser de alta energia para enuclear o tecido prostático com precisão cirúrgica, sem cortes externos e com mínimo sangramento.
@@ -94,7 +94,7 @@ const SolucaoSection = () => (
               className="font-bold text-white leading-snug mb-2"
               style={{ fontSize: "clamp(0.9rem, 1.3vw, 1.05rem)" }}
             >
-              Resultado definitivo — sem recorrência
+              Resultado definitivo e baixa recorrência
             </h3>
             <p className="text-sm leading-relaxed" style={{ color: "rgba(255,255,255,0.5)" }}>
               Diferente dos remédios, o HoLEP resolve o problema na origem. O tecido removido não volta a crescer, garantindo liberdade duradoura.
@@ -146,7 +146,7 @@ const SolucaoSection = () => (
             className="font-black text-white leading-[1.08] mb-6"
             style={{ fontSize: "clamp(1.6rem, 3vw, 2.4rem)" }}
           >
-            HoLEP em Fortaleza:{" "}
+            HoLEP  em Fortaleza:{" "}
             <span
               style={{
                 display: "inline-block",
