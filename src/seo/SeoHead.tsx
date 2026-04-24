@@ -220,6 +220,8 @@ export default function SeoHead({
       <meta name="theme-color" content="#071120" />
       <link rel="canonical" href={url} />
 
+
+
       {/* Open Graph */}
       <meta property="og:type"        content="website" />
       <meta property="og:url"         content={url} />
